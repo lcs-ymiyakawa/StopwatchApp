@@ -32,14 +32,20 @@ struct ContentView: View {
                 
                 // List of times
                 List {
-                    Text("1")
-                    Text("1")
-                    Text("1")
-                    Text("1")
-                    Text("1")
+                    Group {
+                        Text("1")
+                        Text("1")
+                        Text("1")
+                        Text("1")
+                        Text("1")
+                    }
+                    // Remove inset from list items
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
                 // Set the amount of vertical height we want this list to take up
                 .frame(height: 300)
+                // Adjust liststyle to match design
+                .listStyle(.plain)
             }
             .padding()
         }
