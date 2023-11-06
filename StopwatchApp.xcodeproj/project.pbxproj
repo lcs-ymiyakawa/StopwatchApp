@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02533EF22AF92BBA009BE9EB /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02533EF12AF92BBA009BE9EB /* CircleButtonView.swift */; };
 		02623F6C2AF52E6000086B02 /* StopwatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02623F6B2AF52E6000086B02 /* StopwatchAppApp.swift */; };
 		02623F6E2AF52E6000086B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02623F6D2AF52E6000086B02 /* ContentView.swift */; };
 		02623F702AF52E6300086B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02623F6F2AF52E6300086B02 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02533EF12AF92BBA009BE9EB /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		02623F682AF52E6000086B02 /* StopwatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopwatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02623F6B2AF52E6000086B02 /* StopwatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchAppApp.swift; sourceTree = "<group>"; };
 		02623F6D2AF52E6000086B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				02623F6D2AF52E6000086B02 /* ContentView.swift */,
 				02623F6F2AF52E6300086B02 /* Assets.xcassets */,
 				02623F712AF52E6300086B02 /* Preview Content */,
+				02533EF12AF92BBA009BE9EB /* CircleButtonView.swift */,
 			);
 			path = StopwatchApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02533EF22AF92BBA009BE9EB /* CircleButtonView.swift in Sources */,
 				02623F6E2AF52E6000086B02 /* ContentView.swift in Sources */,
 				02623F6C2AF52E6000086B02 /* StopwatchAppApp.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  StopwatchApp
 //
-//  Created by 宮川義之助 on 2023/11/03.
+//  Created by Miyakawa Yoshi on 2023/11/03.
 //
 
 import SwiftUI
@@ -22,24 +22,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                 
                 // Create a circular button
-                ZStack {
-                    // First layer
-                    Circle()
-                        .foregroundColor(.gray)
-                    .frame(width: 100)
-                    // Second layer
-                    Circle()
-                        .foregroundColor(.black)
-                    .frame(width: 93)
-                    // Third layer
-                    Circle()
-                        .foregroundColor(.gray)
-                    .frame(width: 89)
-                    // Fourth layer
-                    Text("Reset")
-                        .font(.title2)
-                        .foregroundColor(.white)
-                }
+                CircleButtonView()
             }
             .padding()
         }
