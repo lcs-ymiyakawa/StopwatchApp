@@ -12,6 +12,7 @@
 		02623F6E2AF52E6000086B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02623F6D2AF52E6000086B02 /* ContentView.swift */; };
 		02623F702AF52E6300086B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02623F6F2AF52E6300086B02 /* Assets.xcassets */; };
 		02623F732AF52E6300086B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02623F722AF52E6300086B02 /* Preview Assets.xcassets */; };
+		02700EF32AF958E300DB309F /* TimeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02700EF22AF958E300DB309F /* TimeListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		02623F6D2AF52E6000086B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02623F6F2AF52E6300086B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02623F722AF52E6300086B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02700EF22AF958E300DB309F /* TimeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				02623F6F2AF52E6300086B02 /* Assets.xcassets */,
 				02623F712AF52E6300086B02 /* Preview Content */,
 				02533EF12AF92BBA009BE9EB /* CircleButtonView.swift */,
+				02700EF22AF958E300DB309F /* TimeListView.swift */,
 			);
 			path = StopwatchApp;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				02533EF22AF92BBA009BE9EB /* CircleButtonView.swift in Sources */,
 				02623F6E2AF52E6000086B02 /* ContentView.swift in Sources */,
 				02623F6C2AF52E6000086B02 /* StopwatchAppApp.swift in Sources */,
+				02700EF32AF958E300DB309F /* TimeListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

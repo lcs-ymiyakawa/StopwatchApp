@@ -2,7 +2,7 @@
 //  CircleButtonView.swift
 //  StopwatchApp
 //
-//  Created by 宮川義之助 on 2023/11/06.
+//  Created by Yoshi Miyakwa on 2023/11/06.
 //
 
 import SwiftUI

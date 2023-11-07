@@ -2,17 +2,22 @@
 //  TimeListView.swift
 //  StopwatchApp
 //
-//  Created by 宮川義之助 on 2023/11/06.
+//  Created by Yoshi Miyakawa on 2023/11/06.
 //
 
 import SwiftUI
 
 struct TimeListView: View {
+    let lapNumber: String
+    let time: String
+    let listColor: Color
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(lapNumber)
+                .foregroundColor(listColor)
+            Spacer()
+            Text(time)
+                .foregroundColor(listColor)
+        }
     }
-}
-
-#Preview {
-    TimeListView()
 }

@@ -33,11 +33,11 @@ struct ContentView: View {
                 // List of times
                 List {
                     Group {
-                        Text("1")
-                        Text("1")
-                        Text("1")
-                        Text("1")
-                        Text("1")
+                        TimeListView(lapNumber: "Lap 5", time: "00:00.98", listColor: .white)
+                        TimeListView(lapNumber: "Lap 4", time: "00:04.08", listColor: .red)
+                        TimeListView(lapNumber: "Lap 3", time: "00:00.96", listColor: .green)
+                        TimeListView(lapNumber: "Lap 2", time: "00:02.76", listColor: .white)
+                        TimeListView(lapNumber: "Lap 1", time: "00:01.16", listColor: .white)
                     }
                     // Remove inset from list items
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
